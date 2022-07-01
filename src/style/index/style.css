@@ -1,0 +1,156 @@
+.header {
+  height: 8vh;
+  background-color: #93ccc6;
+}
+
+.header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a1f1e;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+
+.pictures ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 585px;
+  overflow-y: scroll;
+  margin-top: 15px;
+}
+.form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.form form {
+  margin: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px #404346;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.form form h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #1a1f1e;
+  padding-bottom: 5px;
+}
+
+.form form input {
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px ridge #424242;
+}
+
+.form form input:-webkit-autofill {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #393b59;
+  box-shadow: 0 0 0px 1000px #ffc10700 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #ffc10700 inset;
+}
+
+.form form textarea {
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  height: 80px;
+  resize: none;
+  border-radius: 4px;
+  border: 1px ridge #424242;
+}
+
+.form form textarea:-webkit-autofill {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #393b59;
+  box-shadow: 0 0 0px 1000px #ffc10700 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #ffc10700 inset;
+}
+
+.form form button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 3px 0;
+  border-radius: 4px;
+  border: 1px ridge #353030;
+  color: #ffffff;
+  background-color: #353030;
+}
+
+.form form button:hover {
+  background-color: #6cbdb5;
+  color: #1a1f1e;
+  transition: 0.3s ease-in-out;
+  border-color: transparent;
+}
+
+.cardFoto {
+  width: 22%;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px 1px #8abbb64f;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.cardFoto:hover {
+  transform: scale(1.08);
+  transition: 0.3s ease-in-out;
+}
+
+.cardFoto h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cardFoto img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.cardFoto p {
+  font-size: 16px;
+  padding: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
